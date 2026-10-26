@@ -1,0 +1,24 @@
+{
+  "counts": {
+    "normal": 1764,
+    "blast": 1738,
+    "hispa": 1594,
+    "dead_heart": 1442,
+    "tungro": 1088,
+    "brown_spot": 965,
+    "downy_mildew": 620,
+    "bacterial_leaf_blight": 479,
+    "bacterial_leaf_streak": 380,
+    "bacterial_panicle_blight": 337
+  },
+  "n_images": 10407,
+  "dup_images": 1203,
+  "n_clusters": 9697,
+  "mixed_label_clusters": 10,
+  "hamming": 2,
+  "split_sizes": [
+    7282,
+    1561,
+    1564
+  ]
+}

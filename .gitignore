@@ -1,0 +1,11 @@
+# Kaggle data and the 128x128 image cache (too large, and not ours to redistribute)
+data/
+artifacts/dataset_128.npz
+
+# Model weights: keep only the final encoder
+runs/*.pt
+!runs/cae_z128_b32_lr0.1_m0.0.pt
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

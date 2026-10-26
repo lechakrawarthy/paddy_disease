@@ -1,0 +1,22 @@
+Test MSE (CAE): 0.02783
+E1 test: {'accuracy': 0.4840153452685422, 'macro_precision': 0.46488208047826474, 'macro_recall': 0.5043973570223431, 'macro_f1': 0.4745430795594685, 'macro_auc_ovr': 0.8468440324173215}
+B1 test: {'accuracy': 0.38938618925831203, 'macro_precision': 0.36453361108166504, 'macro_recall': 0.4013382711788445, 'macro_f1': 0.37005345356096253, 'macro_auc_ovr': 0.7923133937217797}
+E1 beats B1 on macro-F1: True
+Target >= 0.60 met: False
+
+                          precision    recall  f1-score   support
+
+   bacterial_leaf_blight      0.279     0.472     0.351        72
+   bacterial_leaf_streak      0.440     0.702     0.541        57
+bacterial_panicle_blight      0.377     0.510     0.433        51
+                   blast      0.553     0.483     0.515       261
+              brown_spot      0.444     0.497     0.469       145
+              dead_heart      0.628     0.431     0.511       216
+            downy_mildew      0.407     0.495     0.447        93
+                   hispa      0.477     0.471     0.474       240
+                  normal      0.574     0.451     0.505       266
+                  tungro      0.470     0.534     0.500       163
+
+                accuracy                          0.484      1564
+               macro avg      0.465     0.504     0.475      1564
+            weighted avg      0.505     0.484     0.487      1564
